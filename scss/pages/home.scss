@@ -1,0 +1,61 @@
+// global styles
+@import "../global";
+
+header{
+	padding-top:3rem;
+}
+.hero{
+	background:url("../../img/bg/bg-hero.jpg");
+	bacground-size:cover;
+	border-bottom: 1rem solid $primary;
+}
+
+.hero-subtitle{
+	padding-bottom:10rem;
+	font-variant: small-caps;
+	font-weight:bold;
+	font-family: "Merriweather";
+}
+
+.hero-title{
+	font-size: 4.8rem;
+	font-weight:bold;
+	font-family: "Merriweather";
+}
+
+.second-title{
+	font-size: 2.8rem;
+	font-weight:bold;
+	font-family: "Merriweather";
+}
+
+.hamburger{
+	font-size: 1rem;
+	color:$secondaryPastel;
+}
+
+.hero-nav{
+	display:block;
+	font-size:1.2rem;
+	}
+
+.hero-nav-item {
+	display: inline-block;
+	padding:1.5rem;
+
+}
+
+.logo-name{
+	color:#fff;
+	font-weight:bold;
+	font-size:2.8rem;
+	font-family: Merriweather;
+
+}
+
+.section{
+	min-height:20rem;
+
+}
+
+

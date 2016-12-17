@@ -1,0 +1,66 @@
+//-----------------------
+//Global variables
+//-----------------------
+
+//Colors
+//------------------------
+
+//Green
+$green:#3a9c61;
+$greenShade:#296e44;
+$greenTint:#75ba90;
+$greenPastel:#d8ebdf;
+
+//Orange
+$orange:#e98e19;
+$orangeShade:#a46412;
+$orangeTint:#f0b05e;
+$orangePastel:#fbe8d1;
+
+//Black
+$black:#241e18;
+$blackShade:#191511;
+$blackTint:#65615d;
+$blackPastel:#d3d2d1;
+
+//Grey
+$grey:#f2f0e9;
+$greyShade:#c2c0ba;
+$greyTint:#f6f4f0;
+$greyPastel:#f8f7f4;
+
+//Brand colors
+//------------------------
+
+$primary:$green;
+$primaryShade:$greenShade;
+$primaryTint:$greenTint;
+$primaryPastel:$greenPastel;
+
+$secondary: $black;
+$secondaryShade:$blackShade;
+$secondaryTint:$blackTint;
+$secondaryPastel:$blackPastel;
+
+$active:$orange;
+$activeShade:$orangeShade;
+$activeTint:$orangeTint;
+$activePastel:$orangePastel;
+
+$background:$grey;
+$backgroundShade:$greyShade;
+$backgroundTint:$greyTint;
+$backgroundPastel:$greyPastel;
+
+
+//Hover effects
+$hoverEffect:10%;
+
+
+// Size
+$mainContainer:140rem;
+
+
+//Indents
+$conteinerHorIndent:13rem;
+$conteinerVerIndent:10rem;

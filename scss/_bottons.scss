@@ -1,0 +1,42 @@
+%btn{
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  color: white;
+  background: transparent;
+  padding: 1.5rem 4rem;
+  border: 2px solid white;
+  width: 18rem;
+  border-radius: 4rem;
+  margin: 0 auto;
+  margin-bottom: 15rem;
+  display: inline-block;
+  font-weight: bold;
+  cursor: pointer;
+  text-align: center;
+
+}
+
+.btn-prime{
+@extend %btn;
+background:$primary;
+border:$primary;
+}
+
+
+.btn-second{
+@extend %btn;
+background:$active;
+border:$active;
+}
+
+.btn-outline{
+@extend %btn
+}
+
+.btn-small{
+padding: 1.5rem 
+}
+
+.btn-large{
+padding: 1.5rem 
+}
