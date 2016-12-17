@@ -1,0 +1,4 @@
+console.log('start module 1 logic');
+console.log('start module 2 logic');
+console.log('start module 3 logic');
+//# sourceMappingURL=data:application/json;charset=utf8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIm1vZHVsIDEuanMiLCJtb2R1bCAyLmpzIiwibW9kdWwgMy5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtBQ0FBO0FDQUEiLCJmaWxlIjoiYnVpbGQuanMiLCJzb3VyY2VzQ29udGVudCI6WyJjb25zb2xlLmxvZygnc3RhcnQgbW9kdWxlIDEgbG9naWMnKTsiLCJjb25zb2xlLmxvZygnc3RhcnQgbW9kdWxlIDIgbG9naWMnKTsiLCJjb25zb2xlLmxvZygnc3RhcnQgbW9kdWxlIDMgbG9naWMnKTsiXX0=

@@ -1,0 +1,36 @@
+//--------------------------
+//Layouts and containers
+//--------------------------
+
+div, p, section, header, footer, aside{
+	box-sizing: border-box;
+}
+
+.section{
+	padding-top:$conteinerVerIndent;
+	padding-bottom:$conteinerVerIndent;
+}
+
+.wrap{
+	max-width:$mainContainer;
+	padding-left:$conteinerHorIndent;
+	padding-right:$conteinerHorIndent;
+	padding-top:$conteinerVerIndent;
+	padding-bottom:$conteinerVerIndent;
+	margin: 0 auto;
+}
+
+.wrapHeader{
+	max-width:$mainContainer;
+	padding-left:$conteinerHorIndent;
+	padding-right:$conteinerHorIndent;
+	padding-top:4rem;
+	padding-bottom:0;
+	margin: 0 auto;
+}
+
+.circle{
+	border-radius:50%;
+	width: 16.5rem;
+	height: 16.5rem;
+}
