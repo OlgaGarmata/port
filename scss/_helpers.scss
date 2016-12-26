@@ -73,6 +73,10 @@
   text-align: justify;
 }
 
+.text-align{
+  padding:5.5rem;
+}
+
 .mobile-text-center {
   @media (max-width: 992px) {
     text-align: center;

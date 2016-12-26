@@ -14,7 +14,7 @@ header{
 	padding-bottom:10rem;
 	font-variant: small-caps;
 	font-weight:bold;
-	font-family: "Merriweather";
+	font-family: "Open Sans";
 }
 
 .hero-title{
@@ -58,4 +58,9 @@ header{
 
 }
 
+.hover{
+	background: $active;
+	opacity: 6;
+
+}
 

@@ -48,6 +48,11 @@ p{
 	font-family:"Open Sans";
 }
 
+.bold{
+	@extend p;
+	font-weight:bold;
+}
+
 a{
 //color:$secondaryPastel;
 font-size:1.2rem;
@@ -59,4 +64,31 @@ text-decoration:underline;
 color:$primary;
 }
 
+}
+
+.osi{
+	font-family:"Open Sans";
+	font-style: oblique;
+	//font-weight:bold;
+	color:$secondaryTint;
+}
+
+.mail{
+	font-family:"Open Sans";
+	font-weight:bold;
+	color:$primary;
+	font-size:1.8rem;
+	font-variant: small-caps;
+	text-decoration: underline;
+
+	&:hover{
+		text-decoration:none;
+		color:$active;
+	}
+}
+
+.info{
+	@extend .mail;
+	font-weight:normal;
+	font-variant:normal;
 }

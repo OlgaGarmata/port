@@ -33,10 +33,37 @@ border:$active;
 @extend %btn
 }
 
+.btn-transparent{
+  @extend %btn;
+  color:$primary;
+  border-color:$primary;
+  margin-bottom:0;
+
+  &:hover{
+    @extend .btn-prime;
+    margin-bottom:0;
+  }
+}
+
 .btn-small{
 padding: 1.5rem 
 }
 
 .btn-large{
 padding: 1.5rem 
+}
+
+.btn-long{
+  @extend %btn;
+  margin-top:5rem;
+  margin-bottom:0;
+  color:$primary;
+  border-color:$primary;
+  width:auto;
+
+
+  &hover{
+    background: $primary;
+    color:white;
+  }
 }
